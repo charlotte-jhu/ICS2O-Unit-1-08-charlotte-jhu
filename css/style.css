@@ -12,20 +12,20 @@
 
 .mdl-layout__header-row {
   justify-content: center;
-  padding: 0
+  padding: 0;
 }
 
 .mdl-layout__content {
   padding-left: 20pt;
   padding-right: 20pt;
   padding-top: 20pt;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
 }
 
 .page-content-answer {
   font-size: 400%;
   color: black;
-  font-family: 'Georgia',serif;
+  font-family: "Georgia", serif;
 }
 
 body {
@@ -33,5 +33,5 @@ body {
 }
 
 img {
-  float: right ;
+  float: right;
 }
