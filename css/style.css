@@ -22,10 +22,16 @@
   font-family: Georgia, serif;
 }
 
+.page-content {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
 .page-content-answer {
-  font-size: 400%;
-  color: black;
-  font-family: Georgia, serif;
+  color: rgb(0 0 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.25rem;
 }
 
 body {
