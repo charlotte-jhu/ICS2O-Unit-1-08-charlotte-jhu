@@ -16,23 +16,9 @@
       rel="stylesheet"
       href="https://code.getmdl.io/1.3.0/material.teal-deep_purple.min.css"
     />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
     <link rel="manifest" href="./site.webmanifest" />
     <title>ICS2O Template</title>
   </head>
@@ -46,28 +32,32 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <image
-          src="./images/octocat-1675361557391.png"
-          alt="Octocat"
-          width="30%"
-          height="auto"
-        />
-        <div class="page-content">
-          <p>Insert instructions here</p>
+        <div id="image">
+          <img
+          class="right-image"
+          src="./images/octocat-1675361557391.png" 
+          alt="Octocat" width="30%" height="auto"
+          />
+        <div class="page-content-instructions">
+          <div id="instructions">Insert instructions here</div>
         </div>
         <!-- Numeric Textfield -->
         <form action="#">
           <div class="mdl-textfield mdl-js-textfield">
+            <!--input pattern attribute-->
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="sample2"
             />
+            <!--mdl-textfielf__label-->
             <label class="mdl-textfield__label" for="sample2">Number...</label>
+            <!--class "mdl-textfield__error"-->
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
+        <br />
         <!-- Accent-colored raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
@@ -76,8 +66,9 @@
           Calculate
         </button>
         <br />
+        <br />
         <div class="page-content-answer">
-          <p>Insert answer here</p>
+          <div id="answer">Insert answer here</div>
         </div>
       </main>
     </div>
