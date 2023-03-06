@@ -23,13 +23,13 @@
 }
 
 .page-content-instructions {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
 }
 
 .page-content-answer {
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
 }
 
@@ -40,5 +40,5 @@
 }
 
 body {
-  background-color:lightblue
+  background-color: lightblue;
 }
